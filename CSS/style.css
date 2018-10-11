@@ -1,0 +1,43 @@
+{
+font-family: 'Quicksand', sans-serif;
+box-sizing:border-box;
+}
+
+body {
+  margin:0 auto;
+}
+header {
+      font-size: 20px;
+      position: absolute;
+      text-align: center;
+      font-family: 'Quicksand';
+}
+div#MainContent {
+  padding-top: 80px;
+  padding=left:50px;
+  padding-right:10px;
+  padding-bottom:20px;
+  font-family: 'Quicksand';
+}
+header div.class img {
+  max-width: 2000px;
+  position: relative;
+  margin: auto;
+
+}
+footer {
+  font-size: 15px;
+  position: absolute;
+  text-align: center;
+  font-family: 'Quicksand';
+}
+@media screen and (min-width: 799px) {
+  header#image {
+    grid-column-start: 1;
+    grid-column-end: 4;
+  }
+  @media screen and (max-width: 800px) {
+    header#image {
+    display:grid;
+    grid-template-columns: 50% 50%;
+    }
